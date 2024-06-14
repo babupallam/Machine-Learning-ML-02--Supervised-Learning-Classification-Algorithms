@@ -1,24 +1,91 @@
 # Supervised Learning Algorithms Repository
-
+Author: Babu Pallam
 ![Supervised Learning](https://img.shields.io/badge/Supervised-Learning-blue)
 
 Welcome to the Supervised Learning Algorithms repository! This repository provides implementations and resources for various supervised learning algorithms. Supervised learning involves training models on labeled data to predict outcomes, making it fundamental in machine learning.
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Algorithms](#algorithms)
-   - [Linear Regression](#linear-regression)
-   - [Logistic Regression](#logistic-regression)
-   - [Support Vector Machines (SVM)](#support-vector-machines-svm)
-   - [Decision Trees and Random Forests](#decision-trees-and-random-forests)
-   - [K-Nearest Neighbors (KNN)](#k-nearest-neighbors-knn)
-   - [Neural Networks](#neural-networks)
-3. [Implementations](#implementations)
-4. [Resources](#resources)
-5. [Contribution Guidelines](#contribution-guidelines)
-6. [License](#license)
-7. [How to Use](#how-to-use)
+
+- `classification/`
+  - `linear_models/`
+    - `logistic_regression/`
+    - `lda/`
+    - `qda/`
+  - `svm/`
+    - `svm/`
+    - `kernel_svm/`
+  - `decision_trees_ensemble/`
+    - `decision_tree_classifier/`
+    - `random_forest_classifier/`
+    - `gradient_boosting_classifier/`
+      - `xgboost/`
+      - `lightgbm/`
+      - `catboost/`
+    - `adaboost_classifier/`
+  - `nearest_neighbors/`
+    - `knn_classifier/`
+  - `probabilistic_models/`
+    - `naive_bayes_classifier/`
+      - `gaussian_nb/`
+      - `multinomial_nb/`
+      - `bernoulli_nb/`
+  - `neural_networks/`
+    - `ann/`
+    - `cnn/`
+    - `rnn/`
+    - `lstm/`
+    - `transformer/`
+  - `bayesian_methods/`
+    - `bayesian_networks/`
+  - `ensemble_learning/`
+    - `bagging_classifier/`
+    - `stacking_classifier/`
+    - `voting_classifier/`
+  - `other_techniques/`
+    - `perceptron/`
+    - `mlp/`
+    - `ridge_classifier/`
+    - `passive_aggressive_classifier/`
+    - `nearest_centroid_classifier/`
+    - `extra_trees_classifier/`
+    - `ovr/`
+    - `ovo/`
+
+- `regression/`
+  - `linear_models/`
+    - `linear_regression/`
+    - `ridge_regression/`
+    - `lasso_regression/`
+    - `elastic_net_regression/`
+  - `polynomial_regression/`
+  - `svm/`
+    - `svr/`
+  - `decision_trees_ensemble/`
+    - `decision_tree_regressor/`
+    - `random_forest_regressor/`
+    - `gradient_boosting_regressor/`
+      - `xgboost/`
+      - `lightgbm/`
+      - `catboost/`
+    - `adaboost_regressor/`
+  - `nearest_neighbors/`
+    - `knn_regressor/`
+  - `probabilistic_models/`
+    - `bayesian_regression/`
+  - `dimensionality_reduction_regression/`
+    - `pcr/`
+    - `pls/`
+  - `robust_regression/`
+    - `huber_regression/`
+    - `theil_sen_estimator/`
+    - `ransac/`
+  - `generalized_linear_models/`
+    - `poisson_regression/`
+    - `tweedie_regression/`
+  - `quantile_regression/`
+  - `other_techniques/`
+    - `quantile_regression_forests/`
 
 ## Overview
 
@@ -61,10 +128,6 @@ Supervised learning is a type of machine learning where the model is trained on 
 - **Description:** Basic understanding of perceptrons, multi-layer perceptrons (MLPs), and backpropagation.
 - **Implementation:** Simple neural network implementation using TensorFlow/Keras.
 - **Usage:** Training a neural network for classification or regression tasks.
-
-## Implementations
-
-This section contains Python scripts for each algorithm mentioned above. Each folder includes detailed README files explaining usage, dependencies, and examples.
 
 ## Resources
 
