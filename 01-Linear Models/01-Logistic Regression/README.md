@@ -44,6 +44,7 @@ By understanding and applying these mathematical formulations, you can effective
 
 ==========================================
 # Detailing Mathematical Formulation Concepts
+# Logistic Regression README
 
 ## 1. The Logit Function
 
