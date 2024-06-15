@@ -51,42 +51,7 @@ Welcome to the Supervised Learning Algorithms repository! This repository provid
     - `extra_trees_classifier/`
     - `ovr/`
     - `ovo/`
-
-- `regression/`
-  - `linear_models/`
-    - `linear_regression/`
-    - `ridge_regression/`
-    - `lasso_regression/`
-    - `elastic_net_regression/`
-  - `polynomial_regression/`
-  - `svm/`
-    - `svr/`
-  - `decision_trees_ensemble/`
-    - `decision_tree_regressor/`
-    - `random_forest_regressor/`
-    - `gradient_boosting_regressor/`
-      - `xgboost/`
-      - `lightgbm/`
-      - `catboost/`
-    - `adaboost_regressor/`
-  - `nearest_neighbors/`
-    - `knn_regressor/`
-  - `probabilistic_models/`
-    - `bayesian_regression/`
-  - `dimensionality_reduction_regression/`
-    - `pcr/`
-    - `pls/`
-  - `robust_regression/`
-    - `huber_regression/`
-    - `theil_sen_estimator/`
-    - `ransac/`
-  - `generalized_linear_models/`
-    - `poisson_regression/`
-    - `tweedie_regression/`
-  - `quantile_regression/`
-  - `other_techniques/`
-    - `quantile_regression_forests/`
-
+    
 ## Overview
 
 Supervised learning is a type of machine learning where the model is trained on labeled data to predict outcomes. This repository serves as a resource for understanding and implementing various supervised learning algorithms.
