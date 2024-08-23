@@ -4,54 +4,7 @@ Author: Babu Pallam
 
 Welcome to the Supervised Learning Algorithms repository! This repository provides implementations and resources for various supervised learning algorithms. Supervised learning involves training models on labeled data to predict outcomes, making it fundamental in machine learning.
 
-## Table of Contents
 
-
-- `classification/`
-  - `linear_models/`
-    - `logistic_regression/`
-    - `lda/`
-    - `qda/`
-  - `svm/`
-    - `svm/`
-    - `kernel_svm/`
-  - `decision_trees_ensemble/`
-    - `decision_tree_classifier/`
-    - `random_forest_classifier/`
-    - `gradient_boosting_classifier/`
-      - `xgboost/`
-      - `lightgbm/`
-      - `catboost/`
-    - `adaboost_classifier/`
-  - `nearest_neighbors/`
-    - `knn_classifier/`
-  - `probabilistic_models/`
-    - `naive_bayes_classifier/`
-      - `gaussian_nb/`
-      - `multinomial_nb/`
-      - `bernoulli_nb/`
-  - `neural_networks/`
-    - `ann/`
-    - `cnn/`
-    - `rnn/`
-    - `lstm/`
-    - `transformer/`
-  - `bayesian_methods/`
-    - `bayesian_networks/`
-  - `ensemble_learning/`
-    - `bagging_classifier/`
-    - `stacking_classifier/`
-    - `voting_classifier/`
-  - `other_techniques/`
-    - `perceptron/`
-    - `mlp/`
-    - `ridge_classifier/`
-    - `passive_aggressive_classifier/`
-    - `nearest_centroid_classifier/`
-    - `extra_trees_classifier/`
-    - `ovr/`
-    - `ovo/`
-    
 ## Overview
 
 Supervised learning is a type of machine learning where the model is trained on labeled data to predict outcomes. This repository serves as a resource for understanding and implementing various supervised learning algorithms.
