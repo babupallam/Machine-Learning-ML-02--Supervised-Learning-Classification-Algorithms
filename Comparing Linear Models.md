@@ -196,6 +196,25 @@ SVM can be extended to non-linear cases using kernel functions \( K(\mathbf{x}_i
 <a name="conclusion"></a>
 ## 6. Conclusion
 
+Here is a table that summarizes the comparison between the four linear models in supervised classification: Logistic Regression, Linear Discriminant Analysis (LDA), Perceptron, and Support Vector Machines (SVM):
+
+| **Aspect**                   | **Logistic Regression**                               | **Linear Discriminant Analysis (LDA)**               | **Perceptron**                                      | **Support Vector Machines (SVM)**                    |
+|------------------------------|------------------------------------------------------|------------------------------------------------------|-----------------------------------------------------|------------------------------------------------------|
+| **Type of Model**            | Probabilistic (Predicts probabilities)               | Generative (Based on Gaussian distributions)         | Deterministic (Binary linear classifier)            | Deterministic (Margin-based classifier)              |
+| **Mathematical Foundation**  | Logistic function applied to a linear combination    | Maximizes ratio of between-class variance to within-class variance | Updates weights based on misclassified examples     | Maximizes margin between classes; can use kernels    |
+| **Decision Boundary**        | Linear                                               | Linear                                               | Linear                                              | Linear (or non-linear with kernels)                  |
+| **Output**                   | Probabilities for each class                         | Class labels                                         | Class labels                                        | Class labels                                         |
+| **Assumptions**              | Linear relationship between features and log-odds    | Normally distributed features with equal covariance matrices | Linearly separable data                             | No strong assumptions; kernel trick allows flexibility |
+| **Loss Function**            | Log-loss (Cross-entropy)                             | N/A (based on variance maximization)                 | Hinge loss (binary classification)                  | Hinge loss (soft margin SVM)                         |
+| **Optimization**             | Convex optimization (Gradient Descent, etc.)         | Closed-form solution for LDA                         | Iterative weight updates                            | Quadratic programming (Convex optimization)          |
+| **Interpretability**         | High (coefficients are interpretable)                | Moderate (based on Gaussian distributions)           | Low (weights have less intuitive meaning)           | Low (especially with non-linear kernels)             |
+| **Computational Efficiency** | High (relatively fast to train and predict)          | High (closed-form solution)                          | High (simple to implement and fast)                 | Moderate to low (can be slow for large datasets)     |
+| **Handling of Non-linearity**| Poor (requires feature engineering)                  | Poor (linear only; assumes normal distribution)      | Poor (only linear decision boundaries)              | Good (can use kernels like RBF for non-linear cases) |
+| **Robustness to Overfitting**| Moderate (can overfit with too many features)        | Low to Moderate (depends on assumptions)             | Low (can overfit noisy data)                        | High (especially with regularization and proper kernel choice) |
+| **Applications**             | Medical diagnosis, spam detection, credit scoring    | Face recognition, marketing segmentation, document classification | Early image recognition, text classification        | Image classification, bioinformatics, handwriting recognition |
+| **Limitations**              | Assumes linearity, less effective with non-linear data | Assumes normality, equal covariances                 | Fails on non-linearly separable data, sensitive to learning rate | Computationally expensive, less interpretable        |
+
+
 In summary, each of these linear models has its own strengths and weaknesses. **Logistic Regression** is great for probabilistic interpretations, **LDA** is powerful under
 
  Gaussian assumptions, **Perceptron** is a simple yet foundational algorithm, and **SVM** provides a robust approach with flexibility for non-linear boundaries. The choice of model depends on the specific problem, dataset characteristics, and the need for interpretability versus performance.
