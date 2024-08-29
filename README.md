@@ -97,6 +97,6 @@ Understand the differences between the Perceptron and Multi-Layer Perceptron (ML
 To run the code examples provided in this repository, clone the repository and install the required dependencies listed in `requirements.txt`.
 
 ```bash
-git clone https://github.com/your-username/Supervised-Learning-Classification-Algorithms.git
+git clone https://github.com/babupallam/Supervised-Learning-Classification-Algorithms.git
 cd Supervised-Learning-Classification-Algorithms
 pip install -r requirements.txt
